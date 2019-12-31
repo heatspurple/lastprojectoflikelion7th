@@ -1,0 +1,36 @@
+    /* src/components/Post/Post.css */
+    .Post {
+        flex: 1;
+        flex-direction: column;
+        background-color: #fff;
+        margin-right: 20%;
+      }
+      .Post-user-avatar img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+      .Post-user-nickname {
+        margin-left: 12px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+      }
+      .Post-image-bg {
+        background-color: #efefef;
+      }
+      .Post-image img {
+        display: block;
+        width: 100%;
+      }
+      .Post-content {
+        padding: 16px 16px;
+      }
+      .Post-content strong {
+        font-family: 'PT Sans', sans-serif;
+        font-weight: bold;
+      }
+      .vjs-fade-out {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+      }
